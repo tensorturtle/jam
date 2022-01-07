@@ -1,7 +1,6 @@
 {{ define "main" }}
 
   {{ .Content }}
-  <h1>{{ .Title }}</h1>
   {{- $cs := .CurrentSection }}
   {{- with $cs }}
     {{- range (where .Site.RegularPages "Section" .Section) }}
