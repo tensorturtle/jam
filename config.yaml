@@ -1,6 +1,6 @@
 baseurl: ''
 languageCode: en-us
-title: Jam Hugo theme
+title: Jason Sohn
 googleAnalytics: ""
 disqusShortname: ""
 //preserveTaxonomyNames: true
@@ -9,7 +9,7 @@ disableHugoGeneratorInject: true
 pluralizeListTitles: false
 pygmentsCodeFences: false
 pygmentsUseClasses: false
-minify: true
+minify: false
 
 permalinks:
   writing: /:year/:month/:day/:slug/
@@ -23,7 +23,7 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 2
-    - name: "Writing"
+    - name: "Posts"
       url: "/writing/"
       weight: 2
     - identifier: projects
@@ -33,7 +33,7 @@ menu:
 
 params:
   description: "Jam is a minimal personal blog and portfolio theme powered by Hugo."
-  FooterText: "© Jam Theme"
+  FooterText: "© 2022 Jason Sohn."
 
 frontmatter:
   author: Ronalds Vilcins
