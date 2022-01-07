@@ -25,19 +25,19 @@ menu:
       weight: 2
     - name: "Posts"
       url: "/writing/"
-      weight: 2
+      weight: 3
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 5
+      weight: 4
 
 params:
   description: "Jam is a minimal personal blog and portfolio theme powered by Hugo."
-  FooterText: "© 2022 Jason Sohn."
+  FooterText: "© 2022 Jason Sohn"
 
 frontmatter:
-  author: Ronalds Vilcins
-  github: 'https://github.com/ronv'
+  author: Jason Sohn
+  github: 'https://github.com/tensorturtle'
   facebook: 'https://facebook.com/####'
   og_image: /images/####
   sitename: ######
