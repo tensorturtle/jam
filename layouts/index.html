@@ -3,7 +3,11 @@
   {{ .Content }}
   
   {{ if gt ( len ( where .Pages "Section" "writing" )) 0 }}
+    <!--- 
+    Replaced with markdown
     <h2>Latest posts</h2>
+    --->
+
     {{ range first 3 ( where .Site.RegularPages "Section" "writing" ) }}
       <article class="list">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
